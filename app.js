@@ -15,7 +15,7 @@ app.use("/", router);
 PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log("Listening on localhost port 3000");
+    console.log(`Listening on localhost port ${PORT}`);
 })
 
 
